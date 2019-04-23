@@ -7,7 +7,7 @@ class Person
     attributes.each {|key, value| self.send(("#{key}="), value )
   end 
   
-  def Person
+  def person
     self.send(key=, value)
   end 
 end
